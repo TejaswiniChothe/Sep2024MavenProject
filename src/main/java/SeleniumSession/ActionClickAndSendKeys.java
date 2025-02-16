@@ -14,6 +14,7 @@ public class ActionClickAndSendKeys {
 
 		driver = new ChromeDriver();
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
+		System.out.println("Hello");
 
 		// SendkeyUsing Action class
 		// WebElement firstNameEle = driver.findElement(By.id("input-firstname"));
