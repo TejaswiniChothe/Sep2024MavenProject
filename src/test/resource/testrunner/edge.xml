@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestNG Regression Suite" verbose="3" parallel="tests"
+	thread-count="3">
+	<test name="Google Test_chrome">
+		<classes>
+			<class name="myTest.GoogleTest" />
+			<parameter name="url" value="https://www.google.co.in/" />
+			<parameter name="browser" value="edge" />
+
+		</classes>
+	</test>
+	<test name="OpentCart Test_chrome">
+		<classes>
+			<class name="myTest.OpenCartTest" />
+			<parameter name="url"
+				value="https://naveenautomationlabs.com/opencart/index.php?route=account/register" />
+			<parameter name="browser" value="edge" />
+
+		</classes>
+	</test>
+	<test name="orangeHrm Test_chrome">
+		<classes>
+			<class name="myTest.orangeHrmTest" />
+			<parameter name="url"
+				value="https://www.orangehrm.com/30-day-free-trial" />
+			<parameter name="browser" value="edge" />
+
+		</classes>
+	</test>
+
+
+</suite>
+
+
+
